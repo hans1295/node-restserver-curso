@@ -24,7 +24,7 @@
 
  } else {
 
-     urlDB = 'mongodb+srv://strider:k2NGGmxybvrE4gO9@cluster0.cjgyf.mongodb.net/cafe';
+     urlDB = process.env.MONGO_URI;
 
  }
  process.env.URLDB = urlDB;
